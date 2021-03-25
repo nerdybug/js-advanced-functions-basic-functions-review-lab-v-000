@@ -29,7 +29,7 @@ var Calculator = {
 };
 
 function actionApplyer(startInt, array) {
-  if (array == []) {
+  if (array.length === 0 {
     return startInt;
   } else {
     return "HEY";
