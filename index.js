@@ -31,5 +31,7 @@ var Calculator = {
 function actionApplyer(startInt, array=[]) {
   if (array == []) {
     return startInt;
+  } else {
+    return "HEY";
   }
 };
