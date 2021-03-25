@@ -28,13 +28,9 @@ var Calculator = {
   }
 };
 
-function actionApplyer(startInt, array) {
-  if (array.length === 0) {
-    return startInt;
-  } else {
-    var timesTwo = startInt * 2;
-    var addOneK = timesTwo + 1000;
-    var modSeven = addOneK % 7;
-    return `${timesTwo}` + `${addOneK}` + `${modSeven}`;
-  }
+function actionApplyer(integer, actions){
+    actions.forEach(func => {
+        integer = func(integer)
+    });
+    return integer
 };
