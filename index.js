@@ -28,7 +28,7 @@ var Calculator = {
   }
 };
 
-function actionApplyer(startInt, array=[]) {
+function actionApplyer(startInt, array) {
   if (array == []) {
     return startInt;
   } else {
