@@ -38,5 +38,3 @@ function actionApplyer(startInt, array) {
     return `${timesTwo}` + `${addOneK}` + `${modSeven}`;
   }
 };
-
-
